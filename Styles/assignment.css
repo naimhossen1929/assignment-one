@@ -38,4 +38,27 @@
     padding: 21px 26px;
     border: 0;
     border-radius: 5px;
+}   
+/* Start Work section Styles */
+.work-section{
+    margin: 131px 210px;
+    display: flex;
+    gap: 87px;
+    align-items: center;
+}
+.work-title{
+    color: #151414;
+    font-weight: 700;
+font-size: 40px;
+}
+.work-description{
+    color: #444343;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.work-list{
+    color: #444343;
+}
+.work-list li{
+    list-style-image: url('../images/favicon.ico');
 }
