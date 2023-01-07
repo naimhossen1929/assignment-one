@@ -72,6 +72,7 @@
 
 .plan-section {
     margin: 130px 230px;
+    width: 1140px;
 
 }
 
@@ -106,20 +107,117 @@
     font-weight: 500;
     font-size: 25px;
 }
+
 /* Start Watch section Styles */
-.watch-section{
+.watch-section {
     width: 1140px;
     height: 300px;
     margin: 130px 230px;
     background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url('../images/watch.png');
     border-radius: 8px;
 }
-.watch-box{
+
+.watch-box {
     padding: 59px 617px 59px 64px;
 }
-.watch-title{
+
+.watch-title {
     margin-bottom: 24px;
-    color:white;
+    color: white;
     font-size: 40px;
     font-weight: 700;
 }
+
+/* Start IT section styles */
+.it-section {
+    width: 1140px;
+    margin: 130px 230px;
+
+}
+
+.it-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.it-box {
+    display: flex;
+    gap: 20px;
+}
+
+.it-box-item {
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.it-box-item-subtitle {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.it-box-item-description {
+    color: #444343;
+    text-align: center;
+}
+
+/* Start Footer section */
+.footer {
+    
+    margin-left: 230px;
+    background: #151414;
+    display: flex;
+    justify-content: space-between;
+    gap: 331px;
+    padding: 121px 219px 138px 230px ;
+    
+}
+ .future-title{ 
+    color: #F8F8F8;
+    font-weight: 700;
+font-size: 45px;
+ }
+ .future-description{
+    color: #FFFFFF;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-weight: 400;
+font-size: 16px;
+
+ }
+ .social{
+    display: flex;
+    gap: 10px;
+ }
+
+ .subscribe-title{
+    color: #FFFFFF;
+    font-weight: 600;
+font-size: 25px;
+} 
+.sub-input{
+    color: #F3F3F3;
+    font-size: 18px;
+    padding: 21px 158px 22px 21px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background: #151414;
+    margin-top: 31px;
+    margin-bottom: 16px;
+}
+.btn-sub{
+    font-weight: 600;
+font-size: 20px;
+color: #FFFFFF;
+padding: 20px 36px;
+background: #005FAC;
+border-radius: 10px;
+border: 0px;
+}
+    
